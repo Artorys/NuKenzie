@@ -1,0 +1,31 @@
+.box__total
+{
+    padding: 1rem;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 1.2rem;
+    height: inherit;
+}
+.box__content
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: inherit;
+}
+.p__box_text
+{
+    font-size: var(--Title-3-S);
+    font-weight: var(--Title-3-W);
+}
+.p__box_total
+{
+    color: var(--color-Primary);
+    font-weight: var(--Title-2-W);
+}
+.p__box_info
+{
+    color: var(--Gray-3);
+    font-size: var(--body-S);
+}

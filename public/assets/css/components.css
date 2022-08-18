@@ -1,0 +1,24 @@
+:root
+{
+    /*colors*/
+    --color-Primary : #FD377E;
+    --color-Primary-2 : #E34981;
+    --color-Secondary : #03B898;
+    --Gray-1 : #F8F9FA;
+    --Gray-2 : #E9ECEF;
+    --Gray-3 : #343A40;
+    --Gray-4 : #212529;
+    /*tipography*/
+    --Title-1-W : 900;
+    --Title-1-S : 1.75rem;
+    --Title-2-W : 700;
+    --Title-2-S : 1.5rem;
+    --Title-3-W : 600;
+    --Title-3-S : 1.25rem;
+    --Title-4-W : 700;
+    --Title-4-S : 0.75rem;
+    --Headline-W : 400;
+    --Headline-S : 1rem;
+    --body-W : 400;
+    --body-S : 0.75rem;
+}

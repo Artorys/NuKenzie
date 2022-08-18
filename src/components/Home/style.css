@@ -1,0 +1,96 @@
+main
+{
+    display: flex;
+    flex-direction: column;
+}
+.container__form_total
+{
+    width: 100%;
+    display: flex;
+    height: 100%;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0px;
+}
+.container__form
+{
+    width: max-content;
+    height: max-content;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+.form
+{
+    padding: 0.5rem;
+}
+.box__total
+{
+    padding: 1rem 0.5rem;
+}
+.container__total
+{
+    width:100%;
+    height: 100%;
+    outline: var(--Gray-2) solid 1px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 40%;
+    flex-grow: 1;
+}
+.container__list
+{
+    margin: 15px 15px;
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+@media screen and (min-width : 700px) 
+{
+    main
+    {
+        flex-flow: row;
+    }
+    .container__form_total
+    {
+        width: 100%;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: stretch;
+        margin: 15px;
+    }
+}
+@media screen and (min-width : 1300px)
+{
+    h1
+    {
+        margin-left: 100px;
+    }
+    .buttons
+    {
+        margin-right: 100px;
+    }
+    .container__form
+    {
+        margin-left: 100px;
+    }
+    .box_buttons    
+    {
+
+        margin-right: 200px;
+    }
+    .card
+    {
+        margin-right: 200px;
+    }
+    .box_no-li
+    {
+        margin-right: 200px;
+        width: 100%;
+    }
+}

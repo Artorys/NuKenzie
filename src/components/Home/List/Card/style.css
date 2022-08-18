@@ -1,0 +1,53 @@
+.card
+{
+    border-radius: 10px;
+    padding: 10px 25px;
+    background-color: var(--Gray-1);
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 20px;
+}
+.box__card
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.descricao
+{
+    font-size: var(--Title-3-S);
+    font-weight: var(--Title-3-W);
+}
+.tipo
+{
+    color: var(--Gray-3);
+}
+.box__preco
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.precoTotal
+{
+    color: var(--Gray-3);
+}
+.remove
+{
+    width: max-content;
+}
+.remove:hover
+{
+    cursor: pointer;
+}
+.remove:hover .remove-rect
+{
+    fill: var(--Gray-3);
+    
+}
+.remove:hover .remove-path
+{
+    fill: white;
+}
