@@ -7,7 +7,7 @@
 
 Deploy : https://nukenzie-phi.vercel.app/
  
-O objetivo era construir  uma interface de compra de lanches,adicionando eles ao carrinho de  compra,removendo quando achar necessário e com barra de pesquisa para  achar o seu lanche.
+O objetivo era controlar  suas finanças através de uma interface simples e objetiva,com entradas e  despesas de gastos,filtrada através de métodos javascript e aplicando  inteiramente o conceito de montagem e imutabilidade do react.
 
 ## 🚀 Começando
 
